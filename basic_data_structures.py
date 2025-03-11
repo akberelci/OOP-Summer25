@@ -11,7 +11,7 @@ name = "Akber"
 numbers = [1, 2, 3]  
 
 # Dictionary 
-person = {"name": "Akber", "age": 30}  
+person = {"name": "Akber","age": 30}  
 
 # Tuple 
 colors = ("red", "green")  
