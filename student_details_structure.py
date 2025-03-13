@@ -1,16 +1,11 @@
-# student_details_structure.py
-
-# Creating a dictionary to store student details
 student = {
-    "first_name": "John",
-    "last_name": "Doe",
-    "index_number": "123456",
-    "nationality": "Polish",
+    "first_name": "Akber",
+    "last_name": "Elci",
+    "index_number": "35397",
+    "nationality": "Turkish",
     "starting_date": "2025-03-13",
-    "courses": ["Mathematics", "Computer Science", "Physics"]
-}
+    "courses": ["Computer Science"]}
 
-# Displaying student details
 print(f"Name: {student['first_name']} {student['last_name']}")
 print(f"Index Number: {student['index_number']}")
 print(f"Nationality: {student['nationality']}")
