@@ -1,1 +1,6 @@
-
+first_name = "Akber"
+last_name = "Elci"
+index_number = "35397"
+nationality = "Turkish"
+starting_date = "3/13/2025"
+courses = "Computer Science"
