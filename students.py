@@ -29,5 +29,17 @@ students = [
 ]
 
 
-for student in students:
-    print(f"Name: {student['first_name']} {student['last_name']}, Index: {student['index_number']}")
+# Function to add a new student
+def add_student(first_name, last_name, index_number):
+    students.append({"first_name": first_name, "last_name": last_name, "index_number": index_number})
+
+# Function to display all students
+def display_students():
+    for student in students:
+        print(student["first_name"], student["last_name"], "-", student["index_number"])
+
+# Example usage
+display_students()
+print("\nAdding a new student...\n")
+add_student("Emma", "Johnson", "112233")
+display_students()
