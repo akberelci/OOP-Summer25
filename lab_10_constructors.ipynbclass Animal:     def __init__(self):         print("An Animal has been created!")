@@ -1,0 +1,17 @@
+class Animal:
+    def __init__(self):
+        print("i love animal")
+a1 = Animal()
+a2 = Animal()
+a3 = Animal()
+
+class Car:
+    def __init__(self, brand, model):
+        print('i like cars')
+        self.brand = brand
+        self.model = model
+
+c1 = Car('Toyota', 'Corolla')
+c2 = Car('Ford', 'Mustang')
+c3 = Car('BMW', 'M3')
+
